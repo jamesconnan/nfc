@@ -1,0 +1,88 @@
+{
+  "Beer": {
+    "Lager": {
+      "price": 5.5
+    },
+    "IPA": {
+      "price": 6.0
+    },
+    "Pilsner": {
+      "price": 5.75
+    },
+    "Stout": {
+      "price": 6.25
+    }
+  },
+  "Wine": {
+    "Red": {
+      "Cabernet Sauvignon": {
+        "price": 8.0,
+        "double_price": 12.0
+      },
+      "Merlot": {
+        "price": 7.5,
+        "double_price": 11.5
+      }
+    },
+    "White": {
+      "Chardonnay": {
+        "price": 7.5,
+        "double_price": 11.0
+      },
+      "Sauvignon Blanc": {
+        "price": 8.25,
+        "double_price": 12.5
+      }
+    },
+    "Rosé": {
+      "Dry Rosé": {
+        "price": 7.0
+      }
+    }
+  },
+  "Spirit": {
+    "Gin": {
+      "Gin and Tonic": {
+        "single_price": 9.0,
+        "double_price": 13.5
+      },
+      "Gin and Soda": {
+        "single_price": 8.5,
+        "double_price": 12.75
+      }
+    },
+    "Vodka": {
+      "Vodka Soda": {
+        "single_price": 8.5,
+        "double_price": 12.75
+      },
+      "Vodka Cranberry": {
+        "single_price": 9.5,
+        "double_price": 14.25
+      }
+    },
+    "Whiskey": {
+      "Whiskey and Coke": {
+        "single_price": 10.0,
+        "double_price": 15.0
+      },
+      "Whiskey Sour": {
+        "single_price": 11.0
+      }
+    }
+  },
+  "Soft Drinks": {
+    "Coca-Cola": {
+      "price": 3.0
+    },
+    "Soda Water": {
+      "price": 2.5
+    },
+    "Juice - Orange": {
+      "price": 3.5
+    },
+    "Juice - Apple": {
+      "price": 3.5
+    }
+  }
+}

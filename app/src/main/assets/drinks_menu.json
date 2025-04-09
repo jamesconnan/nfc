@@ -1,0 +1,130 @@
+{
+  "drinks": [
+    {
+      "name": "Castle Light",
+      "price": 25.0,
+      "category": "Beer"
+    },
+    {
+      "name": "Hansa",
+      "price": 25.0,
+      "category": "Beer"
+    },
+    {
+      "name": "Black Label",
+      "price": 25.0,
+      "category": "Beer"
+    },
+    {
+      "name": "Windhoek Draught",
+      "price": 35.0,
+      "category": "Beer"
+    },
+    {
+      "name": "Windhoek Lager",
+      "price": 35.0,
+      "category": "Beer"
+    },
+    {
+      "name": "Richelieu Single",
+      "price": 30.0,
+      "category": "Brandy"
+    },
+    {
+      "name": "Klippies Single",
+      "price": 30.0,
+      "category": "Brandy"
+    },
+    {"name": "Richelieu Double",
+      "price": 40.0,
+      "category": "Brandy"
+    },
+    {"name": "Klippies Double",
+    "price": 40.0,
+    "category": "Brandy"
+    },
+    {
+      "name": "Bells Single",
+      "price": 30.0,
+      "category": "Whiskey"
+    },
+    {
+      "name": "Jamesons Single",
+      "price": 40.0,
+      "category": "Whiskey"
+    },
+    {"name": "Bells Double",
+      "price": 40.0,
+      "category": "Whiskey"
+    },
+    {"name": "Jamesons Double",
+      "price": 50.0,
+      "category": "Whiskey"
+    },
+    {
+      "name": "Red Wine 1",
+      "price": 30.0,
+      "category": "Wine"
+    },
+    {"name": "Red Wine 2",
+    "price": 40.0,
+    "category": "Wine"
+    },
+    {"name": "Red Wine 3",
+      "price": 50.0,
+      "category": "Wine"
+    },
+    {"name": "Red Wine 4",
+      "price": 40.0,
+      "category": "Wine"
+    },
+    {"name": "Red Wine 5",
+      "price": 50.0,
+      "category": "Wine"
+    },
+    {
+      "name": "White Wine 1",
+      "price": 30.0,
+      "category": "Wine"
+    },
+    {"name": "White Wine 2",
+      "price": 40.0,
+      "category": "Wine"
+    },
+    {"name": "White Wine 3",
+      "price": 50.0,
+      "category": "Wine"
+    },
+    {
+      "name": "Coke",
+      "price": 15.0,
+      "category": "Soft Drinks"
+    },
+    {
+      "name": "Fanta",
+      "price": 15.0,
+      "category": "Soft Drinks"
+    },
+    {
+      "name": "Sprite",
+      "price": 15.0,
+      "category": "Soft Drinks"
+    },
+    {
+      "name": "Water",
+      "price": 10.0,
+      "category": "Soft Drinks"
+    },
+
+    {
+      "name": "Coffee",
+      "price": 20.0,
+      "category": "Hot Drinks"
+    },
+    {
+      "name": "Tea",
+      "price": 15.0,
+      "category": "Hot Drinks"
+    }
+  ]
+} 
