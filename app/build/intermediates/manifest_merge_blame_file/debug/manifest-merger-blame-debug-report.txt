@@ -1,0 +1,313 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nfcreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- NFC permissions -->
+12    <uses-permission android:name="android.permission.NFC" />
+12-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:6:5-62
+12-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:6:22-59
+13
+14    <uses-feature
+14-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:7:5-81
+15        android:name="android.hardware.nfc"
+15-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:7:19-54
+16        android:required="true" />
+16-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:7:55-78
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] /home/jconnan/.gradle/caches/transforms-3/8ac53b05fe9c9b2041573dedb6c5eb90/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.nfcreader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] /home/jconnan/.gradle/caches/transforms-3/8ac53b05fe9c9b2041573dedb6c5eb90/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] /home/jconnan/.gradle/caches/transforms-3/8ac53b05fe9c9b2041573dedb6c5eb90/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.nfcreader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+22-->[androidx.core:core:1.9.0] /home/jconnan/.gradle/caches/transforms-3/8ac53b05fe9c9b2041573dedb6c5eb90/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] /home/jconnan/.gradle/caches/transforms-3/8ac53b05fe9c9b2041573dedb6c5eb90/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:22-64
+26
+27    <application
+27-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:9:5-45:19
+28        android:allowBackup="true"
+28-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:10:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] /home/jconnan/.gradle/caches/transforms-3/8ac53b05fe9c9b2041573dedb6c5eb90/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:11:9-43
+33        android:label="@string/app_name"
+33-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:12:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:13:9-54
+35        android:supportsRtl="true"
+35-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:14:9-35
+36        android:theme="@style/Theme.NFCReader" >
+36-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:15:9-47
+37        <activity
+37-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:17:9-44:20
+38            android:name="com.example.nfcreader.MainActivity"
+38-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:18:13-41
+39            android:exported="true"
+39-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:19:13-36
+40            android:launchMode="singleTop"
+40-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:20:13-43
+41            android:theme="@style/Theme.NFCReader" >
+41-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:21:13-51
+42            <intent-filter>
+42-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:22:13-25:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:23:17-69
+43-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:23:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:24:17-77
+45-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:24:27-74
+46            </intent-filter>
+47
+48            <!-- NFC intent filters -->
+49            <intent-filter>
+49-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:28:13-31:29
+50                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+50-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:29:17-76
+50-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:29:25-74
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:30:17-75
+52-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:30:27-73
+53            </intent-filter>
+54            <intent-filter>
+54-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:32:13-35:29
+55                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+55-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:33:17-76
+55-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:33:25-74
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:30:17-75
+57-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:30:27-73
+58            </intent-filter>
+59            <intent-filter>
+59-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:36:13-39:29
+60                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+60-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:37:17-75
+60-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:37:25-73
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:30:17-75
+62-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:30:27-73
+63            </intent-filter>
+64
+65            <meta-data
+65-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:41:13-43:59
+66                android:name="android.nfc.action.TECH_DISCOVERED"
+66-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:42:17-66
+67                android:resource="@xml/nfc_tech_filter" />
+67-->/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/AndroidManifest.xml:43:17-56
+68        </activity>
+69
+70        <service
+70-->[androidx.room:room-runtime:2.5.0] /home/jconnan/.gradle/caches/transforms-3/61245e1ead399a62dc2d6bc00e6d8e13/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+71            android:name="androidx.room.MultiInstanceInvalidationService"
+71-->[androidx.room:room-runtime:2.5.0] /home/jconnan/.gradle/caches/transforms-3/61245e1ead399a62dc2d6bc00e6d8e13/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+72            android:directBootAware="true"
+72-->[androidx.room:room-runtime:2.5.0] /home/jconnan/.gradle/caches/transforms-3/61245e1ead399a62dc2d6bc00e6d8e13/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+73            android:exported="false" />
+73-->[androidx.room:room-runtime:2.5.0] /home/jconnan/.gradle/caches/transforms-3/61245e1ead399a62dc2d6bc00e6d8e13/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+74
+75        <activity
+75-->[androidx.compose.ui:ui-tooling:1.4.3] /home/jconnan/.gradle/caches/transforms-3/93aa069004288b67059f7a3d0bc62dd4/transformed/jetified-ui-tooling-1.4.3/AndroidManifest.xml:23:9-25:39
+76            android:name="androidx.compose.ui.tooling.PreviewActivity"
+76-->[androidx.compose.ui:ui-tooling:1.4.3] /home/jconnan/.gradle/caches/transforms-3/93aa069004288b67059f7a3d0bc62dd4/transformed/jetified-ui-tooling-1.4.3/AndroidManifest.xml:24:13-71
+77            android:exported="true" />
+77-->[androidx.compose.ui:ui-tooling:1.4.3] /home/jconnan/.gradle/caches/transforms-3/93aa069004288b67059f7a3d0bc62dd4/transformed/jetified-ui-tooling-1.4.3/AndroidManifest.xml:25:13-36
+78        <activity
+78-->[androidx.compose.ui:ui-test-manifest:1.4.3] /home/jconnan/.gradle/caches/transforms-3/d3671a7a6df9724c559f956713282d53/transformed/jetified-ui-test-manifest-1.4.3/AndroidManifest.xml:23:9-25:39
+79            android:name="androidx.activity.ComponentActivity"
+79-->[androidx.compose.ui:ui-test-manifest:1.4.3] /home/jconnan/.gradle/caches/transforms-3/d3671a7a6df9724c559f956713282d53/transformed/jetified-ui-test-manifest-1.4.3/AndroidManifest.xml:24:13-63
+80            android:exported="true" />
+80-->[androidx.compose.ui:ui-test-manifest:1.4.3] /home/jconnan/.gradle/caches/transforms-3/d3671a7a6df9724c559f956713282d53/transformed/jetified-ui-test-manifest-1.4.3/AndroidManifest.xml:25:13-36
+81
+82        <service
+82-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/jconnan/.gradle/caches/transforms-3/cc384aeae145773439c691b2987577ac/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:9:9-15:19
+83            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+83-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/jconnan/.gradle/caches/transforms-3/cc384aeae145773439c691b2987577ac/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:10:13-91
+84            android:directBootAware="true"
+84-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:17:13-43
+85            android:exported="false" >
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/jconnan/.gradle/caches/transforms-3/cc384aeae145773439c691b2987577ac/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:11:13-37
+86            <meta-data
+86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/jconnan/.gradle/caches/transforms-3/cc384aeae145773439c691b2987577ac/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:12:13-14:85
+87                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/jconnan/.gradle/caches/transforms-3/cc384aeae145773439c691b2987577ac/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:13:17-120
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/jconnan/.gradle/caches/transforms-3/cc384aeae145773439c691b2987577ac/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:14:17-82
+89            <meta-data
+89-->[com.google.mlkit:vision-common:17.0.0] /home/jconnan/.gradle/caches/transforms-3/cdb5d607e049e3f4a6b117ca3c8645a5/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
+90                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+90-->[com.google.mlkit:vision-common:17.0.0] /home/jconnan/.gradle/caches/transforms-3/cdb5d607e049e3f4a6b117ca3c8645a5/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:13:17-124
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.mlkit:vision-common:17.0.0] /home/jconnan/.gradle/caches/transforms-3/cdb5d607e049e3f4a6b117ca3c8645a5/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:14:17-82
+92            <meta-data
+92-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:20:13-22:85
+93                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+93-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:21:17-120
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:22:17-82
+95        </service>
+96
+97        <provider
+97-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:9:9-13:38
+98            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+98-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:10:13-78
+99            android:authorities="com.example.nfcreader.mlkitinitprovider"
+99-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:11:13-69
+100            android:exported="false"
+100-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:12:13-37
+101            android:initOrder="99" />
+101-->[com.google.mlkit:common:18.0.0] /home/jconnan/.gradle/caches/transforms-3/326102f81262ab4c08b1b6d5e6c0977b/transformed/jetified-common-18.0.0/AndroidManifest.xml:13:13-35
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:18.0.1] /home/jconnan/.gradle/caches/transforms-3/77891f0c0fc23e6867edfb702894a088/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:18.0.1] /home/jconnan/.gradle/caches/transforms-3/77891f0c0fc23e6867edfb702894a088/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:18.0.1] /home/jconnan/.gradle/caches/transforms-3/77891f0c0fc23e6867edfb702894a088/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:18.0.1] /home/jconnan/.gradle/caches/transforms-3/77891f0c0fc23e6867edfb702894a088/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:18.0.0] /home/jconnan/.gradle/caches/transforms-3/196b9164bfac161146bb8f60b56161be/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:18.0.0] /home/jconnan/.gradle/caches/transforms-3/196b9164bfac161146bb8f60b56161be/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:18.0.0] /home/jconnan/.gradle/caches/transforms-3/196b9164bfac161146bb8f60b56161be/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+111        <!--
+112        Service for holding metadata. Cannot be instantiated.
+113        Metadata will be merged from other manifests.
+114        -->
+115        <service
+115-->[androidx.camera:camera-core:1.3.1] /home/jconnan/.gradle/caches/transforms-3/ef6656093b5ad9c7198a7bfbe3864927/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:29:9-33:78
+116            android:name="androidx.camera.core.impl.MetadataHolderService"
+116-->[androidx.camera:camera-core:1.3.1] /home/jconnan/.gradle/caches/transforms-3/ef6656093b5ad9c7198a7bfbe3864927/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:30:13-75
+117            android:enabled="false"
+117-->[androidx.camera:camera-core:1.3.1] /home/jconnan/.gradle/caches/transforms-3/ef6656093b5ad9c7198a7bfbe3864927/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:31:13-36
+118            android:exported="false" >
+118-->[androidx.camera:camera-core:1.3.1] /home/jconnan/.gradle/caches/transforms-3/ef6656093b5ad9c7198a7bfbe3864927/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:32:13-37
+119            <meta-data
+119-->[androidx.camera:camera-camera2:1.3.1] /home/jconnan/.gradle/caches/transforms-3/730b8266e7462c6f5b68da2a61c9628c/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:30:13-32:89
+120                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+120-->[androidx.camera:camera-camera2:1.3.1] /home/jconnan/.gradle/caches/transforms-3/730b8266e7462c6f5b68da2a61c9628c/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:31:17-103
+121                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+121-->[androidx.camera:camera-camera2:1.3.1] /home/jconnan/.gradle/caches/transforms-3/730b8266e7462c6f5b68da2a61c9628c/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:32:17-86
+122        </service>
+123
+124        <provider
+124-->[androidx.emoji2:emoji2:1.3.0] /home/jconnan/.gradle/caches/transforms-3/2238a366e72891c9e492bc7b123605ca/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+125            android:name="androidx.startup.InitializationProvider"
+125-->[androidx.emoji2:emoji2:1.3.0] /home/jconnan/.gradle/caches/transforms-3/2238a366e72891c9e492bc7b123605ca/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+126            android:authorities="com.example.nfcreader.androidx-startup"
+126-->[androidx.emoji2:emoji2:1.3.0] /home/jconnan/.gradle/caches/transforms-3/2238a366e72891c9e492bc7b123605ca/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+127            android:exported="false" >
+127-->[androidx.emoji2:emoji2:1.3.0] /home/jconnan/.gradle/caches/transforms-3/2238a366e72891c9e492bc7b123605ca/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+128            <meta-data
+128-->[androidx.emoji2:emoji2:1.3.0] /home/jconnan/.gradle/caches/transforms-3/2238a366e72891c9e492bc7b123605ca/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+129-->[androidx.emoji2:emoji2:1.3.0] /home/jconnan/.gradle/caches/transforms-3/2238a366e72891c9e492bc7b123605ca/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+130                android:value="androidx.startup" />
+130-->[androidx.emoji2:emoji2:1.3.0] /home/jconnan/.gradle/caches/transforms-3/2238a366e72891c9e492bc7b123605ca/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+131            <meta-data
+131-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/jconnan/.gradle/caches/transforms-3/4c4262a942527c70f9990e22401e839a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+132                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+132-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/jconnan/.gradle/caches/transforms-3/4c4262a942527c70f9990e22401e839a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+133                android:value="androidx.startup" />
+133-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/jconnan/.gradle/caches/transforms-3/4c4262a942527c70f9990e22401e839a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+134            <meta-data
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+135                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+136                android:value="androidx.startup" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+137        </provider>
+138
+139        <receiver
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+140            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+141            android:directBootAware="false"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+142            android:enabled="true"
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+143            android:exported="true"
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+144            android:permission="android.permission.DUMP" >
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+146                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+149                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+150            </intent-filter>
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+152                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+153            </intent-filter>
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+155                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/jconnan/.gradle/caches/transforms-3/f27fc17f08745533e5f57d4e4fb9f07e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+156            </intent-filter>
+157        </receiver>
+158
+159        <service
+159-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+160            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+160-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+161            android:exported="false" >
+161-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+162            <meta-data
+162-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+163                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+163-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+164                android:value="cct" />
+164-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/jconnan/.gradle/caches/transforms-3/0c953a705ad320d79ec92041ef8f91d6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+165        </service>
+166        <service
+166-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/jconnan/.gradle/caches/transforms-3/527692139a0ceceb116b8e439b21fdbd/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+167            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+167-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/jconnan/.gradle/caches/transforms-3/527692139a0ceceb116b8e439b21fdbd/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+168            android:exported="false"
+168-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/jconnan/.gradle/caches/transforms-3/527692139a0ceceb116b8e439b21fdbd/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+169            android:permission="android.permission.BIND_JOB_SERVICE" >
+169-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/jconnan/.gradle/caches/transforms-3/527692139a0ceceb116b8e439b21fdbd/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+170        </service>
+171
+172        <receiver
+172-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/jconnan/.gradle/caches/transforms-3/527692139a0ceceb116b8e439b21fdbd/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+173-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/jconnan/.gradle/caches/transforms-3/527692139a0ceceb116b8e439b21fdbd/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+174            android:exported="false" />
+174-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/jconnan/.gradle/caches/transforms-3/527692139a0ceceb116b8e439b21fdbd/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+175    </application>
+176
+177</manifest>

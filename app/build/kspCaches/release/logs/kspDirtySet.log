@@ -1,0 +1,47 @@
+=== Build 1744153384046 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+
+Dirty / All: 100,00%
+

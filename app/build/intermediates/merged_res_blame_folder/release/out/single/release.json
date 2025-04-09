@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.nfcreader.app-merged_res-64:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.nfcreader.app-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.nfcreader.app-merged_res-64:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.nfcreader.app-main-65:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.nfcreader.app-merged_res-64:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.nfcreader.app-main-65:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.nfcreader.app-merged_res-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.nfcreader.app-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.nfcreader.app-merged_res-64:/layout_activity_main.xml.flat",
+        "source": "com.example.nfcreader.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.nfcreader.app-merged_res-64:/xml_nfc_tech_filter.xml.flat",
+        "source": "com.example.nfcreader.app-main-65:/xml/nfc_tech_filter.xml"
+    },
+    {
+        "merged": "com.example.nfcreader.app-merged_res-64:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.nfcreader.app-main-65:/mipmap-anydpi/ic_launcher_round.xml"
+    }
+]

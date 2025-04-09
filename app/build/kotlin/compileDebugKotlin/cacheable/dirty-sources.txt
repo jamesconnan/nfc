@@ -1,0 +1,17 @@
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/data/AppDatabase.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/MainActivity.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/screens/UserScreen.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/theme/Color.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/data/Converters.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/data/ActivityLog.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/data/UserDao.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/data/User.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/theme/Type.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+/home/jconnan/Cursor/CursorProjects/nfc/app/src/main/java/com/example/nfcreader/theme/Theme.kt
