@@ -34,15 +34,18 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.nfcreader.screens.*
 import com.example.nfcreader.viewmodels.UserViewModel
+import com.example.nfcreader.viewmodels.TransactViewModel
 import androidx.compose.material.icons.filled.ShoppingCart
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
-    private var nfcAdapter: NfcAdapter? = null
+    private lateinit var nfcAdapter: NfcAdapter
     private var pendingIntent: PendingIntent? = null
     private var nfcInfo by mutableStateOf("Waiting for NFC tag...")
     private val userViewModel: UserViewModel by viewModels()
+    private val transactViewModel: TransactViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -124,7 +127,21 @@ class MainActivity : ComponentActivity() {
                                 AboutScreen()
                             }
                             composable("transact") {
-                                TransactScreen()
+                                TransactScreen(
+                                    viewModel = transactViewModel,
+                                    onNavigateToPayment = { navController.navigate("payment") }
+                                )
+                            }
+                            composable("payment") {
+                                val total by transactViewModel.total.collectAsState()
+                                val transactions by transactViewModel.transactions.collectAsState()
+                                
+                                PaymentScreen(
+                                    totalAmount = total,
+                                    transactions = transactions,
+                                    onBack = { navController.popBackStack() },
+                                    onCompleteTransaction = { transactViewModel.payTotal() }
+                                )
                             }
                         }
                     }

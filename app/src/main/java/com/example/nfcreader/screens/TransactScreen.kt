@@ -25,8 +25,10 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 @Composable
-fun TransactScreen() {
-    val viewModel: TransactViewModel = viewModel()
+fun TransactScreen(
+    viewModel: TransactViewModel,
+    onNavigateToPayment: () -> Unit
+) {
     val total by viewModel.total.collectAsState()
     val transactions by viewModel.transactions.collectAsState()
     val menuItems by viewModel.menuItems.collectAsState()
@@ -70,7 +72,7 @@ fun TransactScreen() {
                 Text("Undo")
             }
             Button(
-                onClick = { viewModel.payTotal() },
+                onClick = { onNavigateToPayment() },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color(0xFF4CAF50)
                 )
