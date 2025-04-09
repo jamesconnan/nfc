@@ -7,6 +7,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.Card
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
@@ -17,6 +18,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.nfcreader.data.MenuItem
+import com.example.nfcreader.data.Transaction
 import com.example.nfcreader.viewmodels.TransactViewModel
 import java.text.SimpleDateFormat
 import java.util.*
@@ -27,6 +30,7 @@ fun TransactScreen() {
     val total by viewModel.total.collectAsState()
     val transactions by viewModel.transactions.collectAsState()
     val menuItems by viewModel.menuItems.collectAsState()
+    val drinkCounts by viewModel.drinkCounts.collectAsState()
     var selectedCategory by remember { mutableStateOf<String?>(null) }
 
     Column(
@@ -41,6 +45,39 @@ fun TransactScreen() {
             style = MaterialTheme.typography.headlineLarge,
             modifier = Modifier.padding(bottom = 16.dp)
         )
+
+        // Control Buttons
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(vertical = 8.dp),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Button(
+                onClick = { viewModel.clearTotal() },
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.error
+                )
+            ) {
+                Text("Clear")
+            }
+            Button(
+                onClick = { viewModel.undoLast() },
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.secondary
+                )
+            ) {
+                Text("Undo")
+            }
+            Button(
+                onClick = { viewModel.payTotal() },
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color(0xFF4CAF50)
+                )
+            ) {
+                Text("Pay")
+            }
+        }
 
         // Menu Section
         Text(
@@ -67,7 +104,7 @@ fun TransactScreen() {
             if (selectedCategory == null) {
                 // Show categories
                 Column {
-                    menuItems.distinctBy { it.category }.forEach { item ->
+                    menuItems.distinctBy { it.category }.forEach { item: MenuItem ->
                         Card(
                             modifier = Modifier
                                 .fillMaxWidth()
@@ -106,12 +143,14 @@ fun TransactScreen() {
                 }
                 
                 Column {
-                    menuItems.filter { it.category == selectedCategory }.forEach { item ->
+                    menuItems.filter { it.category == selectedCategory }.forEach { item: MenuItem ->
                         Card(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(vertical = 4.dp)
-                                .clickable { viewModel.addAmount(item.price) },
+                                .clickable { 
+                                    viewModel.addDrink(item.name, item.price)
+                                },
                             colors = CardDefaults.cardColors(
                                 containerColor = MaterialTheme.colorScheme.surface
                             )
@@ -123,10 +162,17 @@ fun TransactScreen() {
                                 horizontalArrangement = Arrangement.SpaceBetween,
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                                Text(
-                                    text = item.name,
-                                    style = MaterialTheme.typography.bodyLarge
-                                )
+                                Column {
+                                    Text(
+                                        text = item.name,
+                                        style = MaterialTheme.typography.bodyLarge
+                                    )
+                                    Text(
+                                        text = "Selected: ${drinkCounts[item.name] ?: 0}",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = Color.Gray
+                                    )
+                                }
                                 Text(
                                     text = "R${String.format("%.2f", item.price)}",
                                     style = MaterialTheme.typography.bodyLarge,
@@ -150,7 +196,7 @@ fun TransactScreen() {
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-                listOf(5.0, 10.0, 20.0).forEach { amount ->
+                listOf(1.0, 2.0, 5.0).forEach { amount: Double ->
                     Button(
                         onClick = { viewModel.addAmount(amount) },
                         modifier = Modifier.padding(horizontal = 4.dp)
@@ -160,57 +206,49 @@ fun TransactScreen() {
                 }
             }
             
-            // Second row with R50 and R100
+            // Second row with medium denominations
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(top = 8.dp),
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-                listOf(50.0, 100.0, 200.0).forEach { amount ->
+                listOf(10.0, 20.0, 50.0).forEach { amount: Double ->
                     Button(
                         onClick = { viewModel.addAmount(amount) },
                         modifier = Modifier.padding(horizontal = 4.dp)
-                ) {
-                    Text("R$amount")
+                    ) {
+                        Text("R$amount")
+                    }
                 }
             }
+            // Third row with larger denominations
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = 8.dp),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                listOf(100.0, 200.0).forEach { amount: Double ->
+                    Button(
+                        onClick = { viewModel.addAmount(amount) },
+                        modifier = Modifier.padding(horizontal = 4.dp)
+                    ) {
+                        Text("R$amount")
+                    }
+                }
             }
         }
-
-        // Control Buttons
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(vertical = 8.dp),
-            horizontalArrangement = Arrangement.SpaceEvenly
-        ) {
-            Button(
-                onClick = { viewModel.clearTotal() },
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = MaterialTheme.colorScheme.error
-                )
-            ) {
-                Text("Clear")
-            }
-            Button(
-                onClick = { viewModel.undoLast() },
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = MaterialTheme.colorScheme.secondary
-                )
-            ) {
-                Text("Undo")
-            }
-        }
+        
 
         // Transaction History
         Text(
-            text = "Recent Transactions",
+            text = "Transaction Summary",
             style = MaterialTheme.typography.titleLarge,
             modifier = Modifier.padding(vertical = 8.dp)
         )
         Column {
-            transactions.forEach { transaction ->
+            transactions.forEach { transaction: Transaction ->
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -224,6 +262,10 @@ fun TransactScreen() {
                     ) {
                         Text(
                             text = "R${String.format("%.2f", transaction.amount)}",
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+                       Text(
+                            text = "${transaction.drinkName}",
                             style = MaterialTheme.typography.bodyLarge
                         )
                         Text(

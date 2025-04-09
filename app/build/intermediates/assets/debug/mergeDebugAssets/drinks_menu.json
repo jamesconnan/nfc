@@ -125,6 +125,41 @@
       "name": "Tea",
       "price": 15.0,
       "category": "Hot Drinks"
+    },
+    {
+      "name": "R1",
+      "price": 1.0,
+      "category": "Rands"
+    },
+    {
+      "name": "R5",
+      "price": 5.0,
+      "category": "Rands"
+    },
+    {
+      "name": "R10",
+      "price": 10.0,
+      "category": "Rands"
+    },
+    {
+      "name": "R20",
+      "price": 20.0,
+      "category": "Rands"
+    },
+    {
+      "name": "R50",
+      "price": 50.0,
+      "category": "Rands"
+    },
+    {
+      "name": "R100",
+      "price": 100.0,
+      "category": "Rands"
+    },
+    {
+      "name": "R200",
+      "price": 200.0,
+      "category": "Rands"
     }
   ]
 } 

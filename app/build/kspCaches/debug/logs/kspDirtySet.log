@@ -543,3 +543,1256 @@ Dirty:
 
 Dirty / All: 5,00%
 
+=== Build 1744199047062 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+
+Dirty / All: 10,00%
+
+=== Build 1744199153688 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744199229427 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744199314386 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744199391723 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744199678737 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744200329782 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744200370694 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744200441776 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744200760612 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744200926249 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744201014023 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744201184241 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744201266211 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744201323792 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744201358276 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744201519527 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 5,00%
+
+=== Build 1744201628138 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+
+Dirty / All: 9,52%
+
+=== Build 1744202621680 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+
+Dirty / All: 14,29%
+
+=== Build 1744202762615 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744203892731 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+  com.example.nfcreader.R.drawable
+Dirty:
+
+Dirty / All: 0,00%
+
+=== Build 1744204552972 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744204574172 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744204669855 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+
+Dirty / All: 9,52%
+
+=== Build 1744204919761 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744204971774 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205088706 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205232971 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205251114 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205411291 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205570112 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205699528 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205767426 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744205892517 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
+=== Build 1744214549517 ===
+All Files
+  src/main/java/com/example/nfcreader/MainActivity.kt
+  src/main/java/com/example/nfcreader/data/ActivityLog.kt
+  src/main/java/com/example/nfcreader/data/ActivityLogDao.kt
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt
+  src/main/java/com/example/nfcreader/data/Converters.kt
+  src/main/java/com/example/nfcreader/data/MenuItem.kt
+  src/main/java/com/example/nfcreader/data/SecondaryRfidTagDao.kt
+  src/main/java/com/example/nfcreader/data/Transaction.kt
+  src/main/java/com/example/nfcreader/data/User.kt
+  src/main/java/com/example/nfcreader/data/UserDao.kt
+  src/main/java/com/example/nfcreader/screens/AboutScreen.kt
+  src/main/java/com/example/nfcreader/screens/HomeScreen.kt
+  src/main/java/com/example/nfcreader/screens/SettingsScreen.kt
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+  src/main/java/com/example/nfcreader/screens/UserScreen.kt
+  src/main/java/com/example/nfcreader/theme/Color.kt
+  src/main/java/com/example/nfcreader/theme/Theme.kt
+  src/main/java/com/example/nfcreader/theme/Type.kt
+  src/main/java/com/example/nfcreader/viewmodels/TransactViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModel.kt
+  src/main/java/com/example/nfcreader/viewmodels/UserViewModelFactory.kt
+Modified
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src/main/java/com/example/nfcreader/screens/TransactScreen.kt
+
+Dirty / All: 4,76%
+
