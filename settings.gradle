@@ -12,32 +12,6 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
-    versionCatalogs {
-        create("libs") {
-            version('agp', '8.1.0')
-            version('kotlin', '1.8.10')
-            version('compose', '1.4.3')
-            version('room', '2.5.0')
-            
-            plugin('android-application', 'com.android.application').versionRef('agp')
-            plugin('android-library', 'com.android.library').versionRef('agp')
-            plugin('kotlin-android', 'org.jetbrains.kotlin.android').versionRef('kotlin')
-            plugin('kotlin-kapt', 'org.jetbrains.kotlin.kapt').versionRef('kotlin')
-            plugin('ksp', 'com.google.devtools.ksp').version('1.8.10-1.0.9')
-            
-            library('androidx-core-ktx', 'androidx.core:core-ktx:1.9.0')
-            library('androidx-lifecycle-runtime-ktx', 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1')
-            library('androidx-activity-compose', 'androidx.activity:activity-compose:1.7.0')
-            
-            library('compose-ui', 'androidx.compose.ui', 'ui').versionRef('compose')
-            library('compose-ui-tooling-preview', 'androidx.compose.ui', 'ui-tooling-preview').versionRef('compose')
-            library('compose-material', 'androidx.compose.material:material:1.4.3')
-            
-            library('room-runtime', 'androidx.room', 'room-runtime').versionRef('room')
-            library('room-compiler', 'androidx.room', 'room-compiler').versionRef('room')
-            library('room-ktx', 'androidx.room', 'room-ktx').versionRef('room')
-        }
-    }
 }
 
 rootProject.name = "NFC Reader"

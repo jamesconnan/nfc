@@ -1,0 +1,13 @@
+[versions]
+compose = "1.4.3"
+kotlin = "1.8.10"
+room = "2.5.0"
+
+[libraries]
+compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.1.0" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.9.0" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.6.1" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.7.0" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" } 

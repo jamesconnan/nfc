@@ -1,4 +1,4 @@
-=== Build 1744153381908 ===
+=== Build 1744162941602 ===
 Accumulated source to outputs map
   <This is a virtual key for removed outputs; DO NOT USE>:
   src/main/java/com/example/nfcreader/data/AppDatabase.kt:
@@ -16,4 +16,52 @@ All reprocessed outputs
   build/generated/ksp/debug/java/com/example/nfcreader/data/UserDao_Impl.java
   build/generated/ksp/debug/java/com/example/nfcreader/data/SecondaryRfidTagDao_Impl.java
   build/generated/ksp/debug/java/com/example/nfcreader/data/AppDatabase_Impl.java
+
+=== Build 1744163158690 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt:
+    build/generated/ksp/debug/java/com/example/nfcreader/data/SecondaryRfidTagDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/UserDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
+
+=== Build 1744163319919 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt:
+    build/generated/ksp/debug/java/com/example/nfcreader/data/SecondaryRfidTagDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/UserDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
+
+=== Build 1744163403010 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt:
+    build/generated/ksp/debug/java/com/example/nfcreader/data/SecondaryRfidTagDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/UserDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
+
+=== Build 1744163423221 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src/main/java/com/example/nfcreader/data/AppDatabase.kt:
+    build/generated/ksp/debug/java/com/example/nfcreader/data/SecondaryRfidTagDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/UserDao_Impl.java
+    build/generated/ksp/debug/java/com/example/nfcreader/data/AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
 
